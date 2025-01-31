@@ -4,6 +4,7 @@ I have a Mini PC with 2 ethernet ports and a wifi card, In this guide, we'll sho
 
 
 ```mermaid
-graph RL
-a[Router] --|ethernet 1|--> b[Mini PC] --> 
+graph LR
+a[Router] --Ethernet 1--> b[Mini PC] --Ethernet 2--> c[Desktop PC]
+b --Hotspot--> e[Phones + Laptops]
 ```
